@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            <img src="https://www.google.com/search?sca_esv=c7b5bb23670d5037&rlz=1C1VDKB_enIN1092IN1092&sxsrf=ADLYWIIXVF9xRuarq3Evaue56zj5wgWTPw:1736571918403&q=dog&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J603JUkR9Y5suk8yuy50qOYMMWTNCTu57lKPsZpPcfqPexCYqzaQ__ojypAcPYJYvMVjAAXE16Djw6T7JWJtBxN2jQ3KhaWfxcgQ9N6yyclgK8ucpyxRMpRPdP-_PTU6ckb3RMH9wrsa9yV3qa0ddwZ6kKjzE1tO8LiRsaHjPUa-ICVbSA&sa=X&ved=2ahUKEwih3MrC8uyKAxV4RmwGHWGfNZQQtKgLegQIChAB&biw=1536&bih=678&dpr=1.25#vhid=Zcg-2Pqp8jFSiM&vssid=mosaic">
+        
+        
+            background: #f0f4f8;
+        }
+        .login-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        h2 { text-align: center; }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover { background: #45a049; }
+        .forgot-password { text-align: center; }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+        <div class="forgot-password">
+            <a href="#">Forgot Password?</a>
+        </div>
+    </div>
+
+</body>
+</html>
